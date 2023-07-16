@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.navbar {
+    background-color: #3c3c3c;
+
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 48%;
+}
+
+.bi {
+    position: absolute;
+    right: 10%;
+    margin-top: -10px;
+    right: 13%;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-space {
+    display: none;
+
+}
+
+.search-space.active {
+    display: block;
+
+}
+
+.dropdown-menu {
+    background-color: #3c3c3c;
+}
+
+.dropdown-item:hover {
+    background-color: #868686;
+    text-decoration: none;
+}
+
+.hover-link-change {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.hover-link-change:hover {
+    color: rgb(255, 133, 89);
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+
+    transform: scale(1.1);
+    rotate: -7deg;
+    transition: .2s ease-in-out transform;
+
+}
+
+.card {
+    width: 400px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.8);
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+.container-fluid {
+    min-height: 100%;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.terms {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.terms:hover {
+    color: rgb(255, 133, 89);
+}
+
+.cookie {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cookie:hover {
+    color: rgb(255, 133, 89);
+}
+
+.copy {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copy:hover {
+    color: rgb(255, 133, 89);
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
